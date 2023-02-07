@@ -37,11 +37,11 @@ void main() {
   // a += 1;
   // a++;
   // ++a;
-
-  int a = 5;
-  int b = 5;
-
-  int result = a++ - --b + a-- + b-- + --a - b++;
+  //
+  // int a = 5;
+  // int b = 5;
+  //
+  // int result = a++ - --b + a-- + b-- + --a - b++;
   // 5 - --b + a-- + b-- + --a - b++; a = 6, b = 5;
   // 5 - 4 + a-- + b-- + --a - b++; a = 6, b = 4;
   // 5 - 4 + 6 + b-- + --a - b++; a = 5, b = 4;
@@ -49,7 +49,29 @@ void main() {
   // 5 - 4 + 6 + 4 + 4 - b++; a = 4, b = 3;
   // 5 - 4 + 6 + 4 + 4 - 3; a = 4, b = 4;
   // a = 4, b = 4, result = 12
-  print(a);
-  print(b);
-  print(result);
+  // print(a);
+  // print(b);
+  // print(result);
+
+  // ~/ : lấy phần nguyên
+  // % : lấy phần dư
+  // / : sẽ trả về kiểu double nếu không chia hết
+  // var number = 5 % 2;
+  // print(number);
+
+  // 5: Câu điều kiện if else
+  int a = 5;
+
+  // Nếu a > 0: A lớn hơn 0
+  // Nếu a < 0: A bé hơn 0
+  // Nếu a == 0: A bằng 0
+
+  if (a > 0) {
+    print("A lớn hơn 0");
+  } else if (a < 0) {
+    print("A bé hơn 0");
+  } else {
+    print("A bằng 0");
+  }
+
 }
