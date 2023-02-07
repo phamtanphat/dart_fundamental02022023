@@ -76,21 +76,27 @@ void main() {
 
   // 6: Câu điều kiện switch case
 
-  int month = 15;
+  // int month = 15;
+  //
+  // switch (month) {
+  //   case 1:
+  //   case 2:
+  //   case 3:
+  //     print("Quý 1");
+  //     break;
+  //   case 4:
+  //   case 5:
+  //   case 6:
+  //     print("Quý 2");
+  //     break;
+  //   default:
+  //     print("Chưa xác định");
+  //     break;
+  // }
 
-  switch (month) {
-    case 1:
-    case 2:
-    case 3:
-      print("Quý 1");
-      break;
-    case 4:
-    case 5:
-    case 6:
-      print("Quý 2");
-      break;
-    default:
-      print("Chưa xác định");
-      break;
-  }
+  // 7: Xử lý xâu chuỗi
+  String name = "Phát";
+  int age = 29;
+  
+  print("Tên của tôi: $name, tuổi: ${age - 3}");
 }
