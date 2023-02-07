@@ -21,4 +21,9 @@ void main() {
   // var value = 10;
   // dynamic value2 = "abc";
   // value2 = Runes("a");
+
+  // 3: Hằng số
+  var a = 5;
+  const b = 5;
+
 }
