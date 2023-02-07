@@ -28,8 +28,6 @@ void main() {
 
   // 4: Toán tử
   // + - * /
-  // int a = 5;
-  // int b = a++;
   // variable++
   // 1: Gán giá trị trước
   // 2: Tăng giá trị lên 1
@@ -39,4 +37,19 @@ void main() {
   // a += 1;
   // a++;
   // ++a;
+
+  int a = 5;
+  int b = 5;
+
+  int result = a++ - --b + a-- + b-- + --a - b++;
+  // 5 - --b + a-- + b-- + --a - b++; a = 6, b = 5;
+  // 5 - 4 + a-- + b-- + --a - b++; a = 6, b = 4;
+  // 5 - 4 + 6 + b-- + --a - b++; a = 5, b = 4;
+  // 5 - 4 + 6 + 4 + --a - b++; a = 5, b = 3;
+  // 5 - 4 + 6 + 4 + 4 - b++; a = 4, b = 3;
+  // 5 - 4 + 6 + 4 + 4 - 3; a = 4, b = 4;
+  // a = 4, b = 4, result = 12
+  print(a);
+  print(b);
+  print(result);
 }
