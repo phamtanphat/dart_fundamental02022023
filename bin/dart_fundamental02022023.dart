@@ -9,5 +9,11 @@ void main() {
   // bool: kiểu chỉ 2 miền giá trị true hoặc false
   bool isMale = true;
   // runes: kiểu Unicode character
-  String text1 = '\u00AE';
+  // String text1 = '\u00AE';
+  // ctrl + p: xem tham số truyền vào
+  Runes runesTemplate = Runes(
+      "\u{2651} \u{2652} \u{2653} \u{2654}"
+  );
+
+  print(runesTemplate.string);
 }
