@@ -23,7 +23,20 @@ void main() {
   // value2 = Runes("a");
 
   // 3: Hằng số
-  var a = 5;
-  const b = 5;
+  // final a = 5;
+  // const b = 5;
 
+  // 4: Toán tử
+  // + - * /
+  // int a = 5;
+  // int b = a++;
+  // variable++
+  // 1: Gán giá trị trước
+  // 2: Tăng giá trị lên 1
+  // print(a);
+  // print(b);
+  // a = a + 1;
+  // a += 1;
+  // a++;
+  // ++a;
 }
