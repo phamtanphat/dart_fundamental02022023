@@ -60,18 +60,37 @@ void main() {
   // print(number);
 
   // 5: Câu điều kiện if else
-  int a = 5;
+  // int a = 5;
 
   // Nếu a > 0: A lớn hơn 0
   // Nếu a < 0: A bé hơn 0
   // Nếu a == 0: A bằng 0
 
-  if (a > 0) {
-    print("A lớn hơn 0");
-  } else if (a < 0) {
-    print("A bé hơn 0");
-  } else {
-    print("A bằng 0");
-  }
+  // if (a > 0) {
+  //   print("A lớn hơn 0");
+  // } else if (a < 0) {
+  //   print("A bé hơn 0");
+  // } else {
+  //   print("A bằng 0");
+  // }
 
+  // 6: Câu điều kiện switch case
+
+  int month = 15;
+
+  switch (month) {
+    case 1:
+    case 2:
+    case 3:
+      print("Quý 1");
+      break;
+    case 4:
+    case 5:
+    case 6:
+      print("Quý 2");
+      break;
+    default:
+      print("Chưa xác định");
+      break;
+  }
 }
