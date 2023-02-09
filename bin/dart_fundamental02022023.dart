@@ -95,8 +95,39 @@ void main() {
   // }
 
   // 7: Xử lý xâu chuỗi
-  String name = "Phát";
-  int age = 29;
-  
-  print("Tên của tôi: $name, tuổi: ${age - 3}");
+  // String name = "Phát";
+  // int age = 29;
+  //
+  // print("Tên của tôi: $name, tuổi: ${age - 3}");
+
+  // 8: Toán tử đặc biệt
+  // int? a;
+  // int b = a ?? 10;
+
+  // print(b);
+
+  // var name = "Phát";
+  //
+  // if (name is String){
+  //
+  // }
+
+  // 9: Mảng
+  // var arr1 = [1, 2, 3, 4, 5];
+  var arr1 = List.generate(5, (index){
+    return index;
+  });
+
+  // Index: Ví trị của phần tử sẽ bắt đầu từ 0
+
+  // Thêm dữ liệu vào mảng
+  // arr1.add(5);
+
+  // Xóa dữ liệu
+  // arr1.removeLast();
+
+  // Cập nhật
+  arr1[0] = 10;
+  print(arr1);
+
 }
