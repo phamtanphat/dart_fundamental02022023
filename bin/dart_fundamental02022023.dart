@@ -165,6 +165,20 @@ void main() {
   // map["age"] = "29";
   //
   // print(map);
-  
 
+  showMessage(message: "Hello");
+  calculateNumber(1, 2);
 }
+
+// 12: Phương thức
+
+// option named parameter
+void showMessage({String message = ""}) {
+  print(message);
+}
+
+// position named parameter
+void calculateNumber([int a = 0, int b = 0]) {
+  print(a + b);
+}
+
