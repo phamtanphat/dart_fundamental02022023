@@ -114,9 +114,9 @@ void main() {
 
   // 9: Mảng
   // var arr1 = [1, 2, 3, 4, 5];
-  var arr1 = List.generate(5, (index){
-    return index;
-  });
+  // var arr1 = List.generate(5, (index){
+  //   return index;
+  // });
 
   // Index: Ví trị của phần tử sẽ bắt đầu từ 0
 
@@ -127,7 +127,30 @@ void main() {
   // arr1.removeLast();
 
   // Cập nhật
-  arr1[0] = 10;
-  print(arr1);
+  // arr1[0] = 10;
 
+
+  // 10: Vòng lặp for
+  // for (int i = 0; i < 6; i++) {
+  //   print(i.toString());
+  // }
+
+  List<int> arrNumbers1 = [1, 2, 3, 4, 5];
+  List<int> arrNumbers2 = [10, 20, 30, 40, 50];
+
+  for (int i = 0; i < arrNumbers2.length; i++) {
+    for (int j = 0; j < arrNumbers1.length; j++) {
+      print(arrNumbers2[i] * arrNumbers1[j]);
+    }
+  }
+  /*
+    10
+    20
+    30
+    40
+    50
+    20
+    40
+    ..
+   */
 }
