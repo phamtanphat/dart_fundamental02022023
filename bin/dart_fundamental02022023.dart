@@ -166,19 +166,34 @@ void main() {
   //
   // print(map);
 
-  showMessage(message: "Hello");
-  calculateNumber(1, 2);
+  // showMessage(message: "Hello");
+  // int a = 5;
+  // int b = 10;
+  // calculateNumber(a, b);
+  // print("Out Scope $a");
+  // print("Out Scope $b");
+
+  // OOP: Cac tinh chat cua huong doi tuong
+  // 1: Tinh ke thua
+  // 2: Tinh truou tuong
+  // 3: Tinh da hinh
+  // 4: Tinh dong goi
+
+  // Class , Object
 }
 
 // 12: Phương thức
 
 // option named parameter
-void showMessage({String message = ""}) {
-  print(message);
-}
+// void showMessage({String message = ""}) {
+//   print(message);
+// }
 
 // position named parameter
-void calculateNumber([int a = 0, int b = 0]) {
-  print(a + b);
-}
+// void calculateNumber([int a = 0, int b = 0]) {
+//   a++;
+//   b++;
+//   print("In Scope $a");
+//   print("In Scope $b");
+// }
 
