@@ -1,3 +1,5 @@
+import 'dart:collection';
+
 void main() {
   // 1: Kiểu dữ liệu
   // String kiểu chuỗi
@@ -135,14 +137,15 @@ void main() {
   //   print(i.toString());
   // }
 
-  List<int> arrNumbers1 = [1, 2, 3, 4, 5];
-  List<int> arrNumbers2 = [10, 20, 30, 40, 50];
+  // List<int> arrNumbers1 = [1, 2, 3, 4, 5];
+  // List<int> arrNumbers2 = [10, 20, 30, 40, 50];
+  //
+  // for (int i = 0; i < arrNumbers2.length; i++) {
+  //   for (int j = 0; j < arrNumbers1.length; j++) {
+  //     print(arrNumbers2[i] * arrNumbers1[j]);
+  //   }
+  // }
 
-  for (int i = 0; i < arrNumbers2.length; i++) {
-    for (int j = 0; j < arrNumbers1.length; j++) {
-      print(arrNumbers2[i] * arrNumbers1[j]);
-    }
-  }
   /*
     10
     20
@@ -153,4 +156,15 @@ void main() {
     40
     ..
    */
+  // Set<int> setNumbers = {1, 1, 2};
+  // print(setNumbers.length);
+
+  // Map: Lưu theo key và value
+  // Map<String, String> map = HashMap();
+  // map["name"] = "Phát";
+  // map["age"] = "29";
+  //
+  // print(map);
+  
+
 }
