@@ -2,7 +2,7 @@ import 'dart:core';
 
 mixin Authentication {
   String account = "";
-  String passowrd = "";
+  String password = "";
 
   void login(String account, String password);
 
