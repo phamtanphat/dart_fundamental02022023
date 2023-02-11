@@ -5,8 +5,5 @@ class Animal {
   // 2: Phuong thuc (function)
 
   // constructor (Phuong thuc khoi tao)
-  Animal(String name, double weight) {
-    this.name = name;
-    this.weight = weight;
-  }
+  Animal(this.name, this.weight);
 }

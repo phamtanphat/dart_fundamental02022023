@@ -1,5 +1,7 @@
 import 'dart:collection';
 
+import 'animal.dart';
+
 void main() {
   // 1: Kiểu dữ liệu
   // String kiểu chuỗi
@@ -180,6 +182,13 @@ void main() {
   // 4: Tinh dong goi
 
   // Class , Object
+
+  Animal cat = Animal("Cat", 1.2);
+  Animal dog = Animal("Dog", 3);
+
+  print("Name: ${cat.name}, weight: ${cat.weight}");
+  print("Name: ${dog.name}, weight: ${dog.weight}");
+
 }
 
 // 12: Phương thức
