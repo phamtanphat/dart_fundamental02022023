@@ -186,6 +186,8 @@ void main() {
   Animal cat = Animal("Cat", 1.2);
   Animal dog = Animal("Dog", 3);
 
+  cat.name = "Cat 1";
+
   print("Name: ${cat.name}, weight: ${cat.weight}");
   print("Name: ${dog.name}, weight: ${dog.weight}");
 
