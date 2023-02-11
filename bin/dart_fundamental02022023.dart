@@ -2,6 +2,9 @@ import 'dart:collection';
 
 import 'animal.dart';
 import 'cat.dart';
+import 'pizza.dart';
+import 'pizza_cheese.dart';
+import 'pizza_store.dart';
 
 void main() {
   // 1: Kiểu dữ liệu
@@ -184,10 +187,13 @@ void main() {
 
   // Class , Object
 
-  Cat cat = Cat("Cat", 1.2, "Yellow");
-  Animal dog = Animal("Dog", 3);
+  // Cat cat = Cat("Cat", 1.2, "Yellow");
+  // Animal dog = Animal("Dog", 3);
+  //
+  // cat.printInfo();
 
-  cat.printInfo();
+  PizzaStore pizzaStore = PizzaStore();
+  pizzaStore.orderPizza(PizzaCheese());
 
 }
 
