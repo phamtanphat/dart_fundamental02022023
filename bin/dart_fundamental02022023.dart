@@ -1,6 +1,7 @@
 import 'dart:collection';
 
 import 'animal.dart';
+import 'cat.dart';
 
 void main() {
   // 1: Kiểu dữ liệu
@@ -183,13 +184,10 @@ void main() {
 
   // Class , Object
 
-  Animal cat = Animal("Cat", 1.2);
+  Cat cat = Cat("Cat", 1.2, "Yellow");
   Animal dog = Animal("Dog", 3);
 
-  cat.name = "Cat 1";
-
-  print("Name: ${cat.name}, weight: ${cat.weight}");
-  print("Name: ${dog.name}, weight: ${dog.weight}");
+  cat.printInfo();
 
 }
 

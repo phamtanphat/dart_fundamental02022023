@@ -8,7 +8,7 @@ class Animal {
   Animal(this._name, this._weight);
 
   // Named constructor
-  // Animal.initName(this.name);
+  Animal.initName(this._name);
 
   // 3: Getter Setter
 
@@ -19,4 +19,8 @@ class Animal {
   double get weight => _weight;
 
   set weight(double weight) => _weight = weight;
+
+  void printInfo() {
+    print("Name: $name, weight: $weight");
+  }
 }
