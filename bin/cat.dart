@@ -1,6 +1,7 @@
 import 'animal.dart';
+import 'authetication.dart';
 
-class Cat extends Animal{
+class Cat extends Animal with Authentication{
 
   late String color;
 
@@ -9,5 +10,10 @@ class Cat extends Animal{
   @override
   void printInfo() {
     print("Name: $name, weight: $weight, color: $color");
+  }
+
+  @override
+  void login(String account, String password) {
+    // TODO: implement login
   }
 }
